@@ -9,6 +9,12 @@ import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 
 function App() {
+    const navigate = useNavigate();
+
+  const handleSomeAction = () => {
+      // Use navigate to go to a different page
+      navigate('/MainPage');
+  };
  
   return (
     <>
