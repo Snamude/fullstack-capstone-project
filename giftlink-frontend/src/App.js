@@ -26,6 +26,7 @@ function App() {
           <Route path="/app/login" element={<LoginPage/>} />
           <Route path="/app/register" element={<RegisterPage />} />
           <Route path="/app/profile" element={<Profile/>} />
+          <button onClick={handleSomeAction}>Login</button>
         </Routes>
         </>
   );
